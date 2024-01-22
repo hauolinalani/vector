@@ -16,7 +16,7 @@ use crate::{config::Config, git, platform, util};
 #[cfg(windows)]
 const DEFAULT_SHELL: &str = "C:\\Program Files\\Git\\bin\\bash.EXE";
 
-// This default is not currently used on non-Windows, so this is just a placeholder for now.
+
 #[cfg(not(windows))]
 const DEFAULT_SHELL: &str = "/bin/sh";
 
